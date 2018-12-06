@@ -1,0 +1,7 @@
+site_exerciocio:
+  ports: 
+   - 8045:50
+  volumes:
+   - /tmp/site:/usr/local/apache2/htdocs
+
+
